@@ -1,6 +1,6 @@
 var config     = require('./../config/config');
 
-var weatherController  = require('./../controllers/weathercontroller');
+var weatherController  = require('./../controllers/weatherController');
   
 module.exports.set = function(app) {
         

@@ -18,9 +18,13 @@ module.exports.weather  = function(req,resp)
     //HTTP Get request to open weather map API 
     
     http.get(options, function(res){
+
+
+        console.log(options)
         res.setEncoding('utf8');
         res.on('data', function(data){
-            var obj =JSON.parse(data);
+
+            var obj = JSON.parse(data);
             
             //DIsplay Name,country and Temp
             displayData+='<div class="col-sm-6"><div class="row"><h1 style="color:blue;margin-left:30%;margin-top:15%;position:relative">'+obj.city.name+','+obj.city.country+'</h1>';
