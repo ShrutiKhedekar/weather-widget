@@ -1,0 +1,23 @@
+{
+  "main": "server.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "weather_info",
+  "version": "1.0.0",
+  "description": "Displays weather information",
+  "devDependencies": {
+      "date":"1.0.2",
+      "body-parser":"1.15.0",
+      "express":"4.13.4",
+      "hogan-express":"0.5.2",
+      "request":"2.74.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "weather"
+  },
+  "author": "Shruti Khedekar",
+  "license": "ISCw"
+}
